@@ -1,0 +1,20 @@
+net: "caffe/mobilefacenet_model.prototxt"
+#test_iter: 100 
+#test_interval: 2000
+iter_size: 2
+base_lr: 0.1
+lr_policy: "multistep"
+gamma: 0.1
+
+stepvalue: 80000
+stepvalue: 120000
+stepvalue: 140000
+max_iter: 160000
+
+display: 100
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "result/mobilefacenet"
+
+solver_mode: GPU
