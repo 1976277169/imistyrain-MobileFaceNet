@@ -1,4 +1,4 @@
-net: "caffe/mobilefacenet_model.prototxt"
+net: "mobilefacenet_model.prototxt"
 #test_iter: 100 
 #test_interval: 2000
 iter_size: 2

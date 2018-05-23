@@ -2,7 +2,7 @@ import sys
 sys.path.insert(0,"D:\CNN\caffe\python")
 import caffe
 
-model="deploy_inception-v4.prototxt"#"MobileFaceNet_deploy.prototxt"
+model="../models/MobileFaceNet_deploy.prototxt"
 
 def main():
     net=caffe.Net(model,caffe.TEST)
